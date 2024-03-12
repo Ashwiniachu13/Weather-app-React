@@ -1,12 +1,16 @@
+
+body{
+  background-image: url("https://www.wallpaperuse.com/wallp/25-252084_m.jpg");
+  background-size: cover;
+    background-repeat: no-repeat;
+}
 .container {
     width: 500px;
-    height: 630px;
+    height: 530px;
     margin: auto;
     margin-top: 30px;
     border-radius: 10px;
-    background-image: url("https://www.wallpaperuse.com/wallp/25-252084_m.jpg"); 
-    background-size: cover;
-    background-repeat: no-repeat;
+   background-color:rgb(197, 117, 188);
     box-shadow: 0px 0px 5px 8px rgb(208, 208, 208);
   }
   .top-bar{
@@ -41,27 +45,31 @@
     box-shadow: 0px 0px 3px 3px rgb(208, 208, 208);
   }
   .weather-image{
+    height: 100px;
+    width:5px;
+    margin-left: 50%;
     margin-top: 30px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    
   }
   .weather-temp{
     display: flex;
     justify-content: center;
-    color: white;
+    color: black;
     font-size: 30px;
     font-weight: 200;
   }
   .weather-location{
     display: flex;
     justify-content: center;
-    color: white;
+    color: black;
     font-size: 30px;
     font-weight: 400;
   }
   .data-container{
     margin-top: 50px;
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
   }
@@ -79,7 +87,7 @@
   }
   .text{
     color: black;
-    font-size:23px ;
+    font-size:20px ;
     font-weight: 400;
   }
   @media screen and (max-width: 600px) {
